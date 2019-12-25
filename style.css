@@ -1,0 +1,35 @@
+body{
+    font-family: arial, sans-serif;
+}
+
+.header {
+    padding-top: 0.65%;
+    text-align: center;
+}
+
+.plain-links a{
+    font-size: 13px;
+    color: #000;
+    font-style: normal;
+    font-weight: lighter;
+    opacity: 0.75;
+    word-spacing: 1.1em;
+    text-decoration: none;
+}
+
+.wrapper-left-elements{
+    float: left;
+    top: 1em;
+    width: 120px;
+}
+.wrapper-right-elements{
+    float: right;
+    top: 1em;
+    width: 200px;
+}
+
+
+.main{
+    text-align: center;
+    padding-top: 8em;
+}
