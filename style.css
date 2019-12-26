@@ -2,7 +2,7 @@ body{
     font-family: arial, sans-serif;
 }
 
-.header {
+.header, .search-blob {
     padding-top: 0.65%;
     text-align: center;
 }
@@ -13,8 +13,8 @@ body{
     font-style: normal;
     font-weight: lighter;
     opacity: 0.75;
-    word-spacing: 1.1em;
     text-decoration: none;
+    word-spacing: 1.1em;
 }
 
 .wrapper-left-elements{
@@ -25,11 +25,125 @@ body{
 .wrapper-right-elements{
     float: right;
     top: 1em;
-    width: 200px;
+    width: 300px;
+    height: 40px;
+    display: inline-block;
 }
 
+.opt-ico{
+    /* Shamesly stolen from google's own page :( */
+    color: #000;
+    opacity: 0.85;
+    background-position: -132px -38px;
+    background-image: url('https://web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    display: inline-block;
+    outline: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    padding-right: 4em;
+}
+.userimg{
+    /*Half stolen, half edited to fit the page :)*/
+    background-image: url(https://lh3.googleusercontent.com/-H0_qDyMHcK4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd_fG6RsjI4RE78LFeFa359Yrcmqw.CMID/s32-c/photo.jpg);
+    background-size: 32px 32px;
+    border-radius: 50%;
+    display: inline-block ;
+    margin: -1px;
+    overflow: hidden;
+    
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    float: right;
+    white-space: nowrap;
+    line-height: normal;
+    text-align: right;
+}
 
 .main{
     text-align: center;
-    padding-top: 8em;
+    padding-top: 11em;
+}
+.vanity-search{
+    width: 550px;
+    height: 40px;
+    border: solid 0.5px rgba(179, 175, 175, 0.35);
+    opacity: 1;
+    border-radius: 20px;
+    margin: auto;
+}
+.searchbar{
+    margin-top: 0.75em;
+    border: none;
+    background-color: #fff;
+    color: #000;
+}
+
+.buttons-search-blob{
+    margin-top: 2em;
+}
+.buttons-search-blob input{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color:#f2f2f2;
+    border: 1px solid#f2f2f2;
+    border-radius: 4px;
+    color:#5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.footer{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    margin: 0;
+}
+
+.span-wrapper-left-elements{
+    float: left;
+    top: 1em;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.span-wrapper-left-elements a{
+    font-size: 15px;
+    color: #5f6368;
+    font-style: normal;
+    font-weight: lighter;
+    opacity: 1;
+    text-decoration: none;
+    padding-left: 1.75em;
+}
+.span-wrapper-right-elements{
+    float: right;
+    top: 1em;
+    width: max-content;
+    margin-top: 15px;
+}
+
+.span-wrapper-right-elements a{
+    font-size: 15px;
+    color: #5f6368;
+    font-style: normal;
+    font-weight: lighter;
+    opacity: 1;
+    text-decoration: none;
+    padding-right: 1.75em;
 }
