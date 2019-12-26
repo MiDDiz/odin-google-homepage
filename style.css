@@ -147,3 +147,19 @@ body{
     text-decoration: none;
     padding-right: 1.75em;
 }
+
+.svgholder{
+    color:#9AA0A6;
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 9px;
+    width: 24px;
+    float: left;
+    opacity: 0.5;
+}
+.svgholder svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
